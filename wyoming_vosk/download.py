@@ -37,9 +37,9 @@ MODELS: Dict[str, List[str]] = {
     "uz": ["vosk-model-small-uz-0.22"],
     "vi": ["vosk-model-small-vn-0.4", "vosk-model-vn-0.4"],
     "zh": ["vosk-model-small-cn-0.22"],
+    "uk": ["vosk-model-small-uk-v3-small"],
     # Not working:
     # "ar": ["vosk-model-ar-mgb2-0.4"],
-    # "uk": ["vosk-model-small-uk-v3-small"],
 }
 
 CASING_FOR_MODEL: Dict[Optional[str], str] = {
