@@ -25,8 +25,8 @@ version = version_path.read_text(encoding="utf-8").strip()
 setup(
     name=module_name,
     version=version,
-    description="Wyoming Server for Vosk",
-    url="http://github.com/rhasspy/wyoming-vosk",
+    description="Wyoming Server for Vosk (with uk)",
+    url="http://github.com/kionlife/wyoming-vosk",
     author="Michael Hansen",
     author_email="mike@rhasspy.org",
     license="MIT",
