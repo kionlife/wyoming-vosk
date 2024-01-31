@@ -7,7 +7,8 @@ from typing import Dict, List, Optional, Union
 from urllib.request import urlopen
 from zipfile import ZipFile
 
-URL_FORMAT = "https://huggingface.co/rhasspy/vosk-models/resolve/main/{language}/{model_name}.zip"
+#URL_FORMAT = "https://huggingface.co/rhasspy/vosk-models/resolve/main/{language}/{model_name}.zip"
+URL_FORMAT = "https://alphacephei.com/vosk/models/{model_name}.zip"
 
 _LOGGER = logging.getLogger(__name__)
 
